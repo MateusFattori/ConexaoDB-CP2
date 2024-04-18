@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using cp2.Models;
 
 namespace cp2.Models
 {

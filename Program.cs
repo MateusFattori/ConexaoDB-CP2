@@ -1,3 +1,4 @@
+global using cp2.Models;
 using cp2.Data;
 using Microsoft.EntityFrameworkCore;
 
