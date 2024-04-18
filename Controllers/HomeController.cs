@@ -21,7 +21,7 @@ namespace cp2.Controllers
             return View();
         }
 
-        public IActionResult Registro(User resquest)
+        public IActionResult Register(User resquest)
         {
             var user = _dataContext.MVC_Users.FirstOrDefault(x => x.UserEmail == resquest.UserEmail);
             if (user != null)
